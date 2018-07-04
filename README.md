@@ -18,7 +18,7 @@ init文件管理元素定位，对操作步骤进行封装。支持多线程，�
 -------
 整体结构
 ###
-![](https://github.com/hanyguoguo/appiumPythonKW/blob/master/img/KWtree.png)
+![](https://github.com/hanyguoguo/appiumPythonKW/blob/master/img/kwtree.png)
 
 测试用例
 ###
@@ -26,7 +26,7 @@ init文件管理元素定位，对操作步骤进行封装。支持多线程，�
 
 测试结果
 ###
-![](https://github.com/hanyguoguo/appiumPythonPO/blob/master/img/result.png)
+![](https://github.com/hanyguoguo/appiumPythonKW/blob/master/img/result.png)
 
 
 4、不足和优化
