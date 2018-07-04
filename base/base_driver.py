@@ -13,11 +13,9 @@ class BaseDriver:
         # 封装driver
         desired_capabilities = {
             "platformName": "android",
-            # "deviceName": "8593d3b4",
             "deviceName":devices,
             "automationName": "UiAutomator2",
             "app": "C:\\Users\\liuyj\\Desktop\\app-localtest-release.apk",
-            # "app": "C:\\Users\\liuyj\\Desktop\\app-formaltrial-release.apk",
             "appWaitActivity": "hospital.com.mainlib.login.LoginActivity",
             "noReset": "True",
             "unicodeKeyboard": "True",
@@ -31,5 +29,3 @@ class BaseDriver:
 if __name__=="__main__":
     bd=BaseDriver()
     driver=bd.get_driver(0)
-    # for i in range(2):
-    #     driver=bd.get_driver(i)
